@@ -1,0 +1,89 @@
+/*
+Theme Name: Registralow
+Theme URL: http://
+Author: JA
+Author URL: 
+Description: Tema para la página web de Registralow.
+Version: 1.0
+Text Domain: 
+*/
+
+/* BEGIN GENERAL STYLES */
+.center {
+    text-align: center;
+}
+
+/* SUBSTRACT HEADER AND FOOTER HEIGHT */
+.wrapper {
+    min-height: 100vh;
+}
+
+.transform-center-vertical {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.input input[type=text] {
+    width: 90%;
+    margin-bottom: 20px;
+}
+/* END GENERAL STYLES */
+
+/* BEGIN NAVBAR */
+.navbar-default {
+    border: 0;
+    border-radius: 0;
+}
+/* END NAVBAR */
+
+/* BEGIN BANNER */
+
+/* END BANNER */
+
+/* Parallax CSS */
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    min-height: 400px;
+    height: auto;
+}
+
+.parallax {
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	z-index: -1; 
+}
+
+.parallax img {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    min-width: 1920px;
+    width: 100%;
+    background-position: center; 
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (max-width: 480px) {
+    
+}
