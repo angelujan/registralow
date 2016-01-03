@@ -364,6 +364,11 @@ footer .footer-logo {
     padding-left: 15px;
 }
 
+.contacto input[type=text]:focus, textarea:focus {
+    outline: none;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,.3);
+}
+
 .contacto input[type=text] {
     height: 55px;
 }
